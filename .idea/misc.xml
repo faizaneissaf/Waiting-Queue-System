@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/drawable/blue_box.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/drawable/login_icon_24.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/drawable/main_btn.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/drawable/singleline_input.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/drawable/white_horizontal_line.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_login_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_signup_page.xml" value="0.24114583333333334" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_student_add_request_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_student_dashboard.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_student_history_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_student_meeting_info_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Android/app/src/main/res/layout/activity_student_profile_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/drawable/deatils_icon.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/drawable/notifications_24.xml" value="0.2713541666666667" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_login_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_main.xml" value="0.22418478260869565" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_meeting_details.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_pq_add_meetings.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_pq_addqh.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_pq_dashboard.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_pq_meetings.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_pq_profile.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_pq_schedule_meetings.xml" value="0.22" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_qh_meeting_information.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_qh_meeting_informationfyp2.xml" value="0.2259963768115942" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_qh_meeting_schedules.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_qh_meeting_schedulessub_details.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_qh_meetings_fyp1.xml" value="0.2246376811594203" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_qh_meetings_fyp2.xml" value="0.22056159420289856" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_qh_meetingschedules_details.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_qh_profile.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_queue_handler_dashboard.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_student_add_request_page.xml" value="0.23233695652173914" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_student_dashboard.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_student_history_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_student_meeting_info_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_student_profile_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_dashboard.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_group_members.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_groups.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_history.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_meeting_details_page.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_meeting_information.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_meetingdetails.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_meetingsub_details.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_profile.xml" value="0.2552083333333333" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_std_meeting_information.xml" value="0.22826086956521738" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/pq_allgroups_rv_list_row.xml" value="0.20923913043478262" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/qh_groupinformation_data_row.xml" value="0.2246376811594203" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/qh_groupinformation_data_row_fyp2.xml" value="0.2259963768115942" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/qh_meetingschedules_fyp1_list_row.xml" value="0.2246376811594203" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/qh_meetingschedules_fyp2_list_row.xml" value="0.2259963768115942" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/qh_optionbuttons.xml" value="0.23958333333333334" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/supervisor_meetings_schedules_list_row.xml" value="0.22192028985507245" />
+        <entry key="..\:/FreeLance-Projects/Apps/ProjectWaitingQueueSystem/app/src/main/res/layout/supervisor_meetingschedules_rv_list_row.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/Faizan/Desktop/For GitHUB/ProjectWaitingQueueSystem/app/src/main/res/layout/activity_supervisor_meeting_information.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

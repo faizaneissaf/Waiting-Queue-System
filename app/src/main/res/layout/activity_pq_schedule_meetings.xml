@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProjectCommittee.Pq_ScheduleMeetings">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary_blue"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Add Meetings"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Upload Excel Sheet"
+                android:textColor="@color/primary_blue"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/buttonbrowse"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="@string/browse"
+                android:textColor="@color/white"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+            <TextView
+                android:id="@+id/et_filename"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="File Name"
+                android:textColor="@color/primary_blue"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonbrowse" />
+
+            <Button
+                android:id="@+id/buttonupload"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="@string/upload"
+                android:textColor="@color/white"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_filename" />
+
+            <Button
+                android:id="@+id/deletealldata_btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Delete All Data"
+                android:textColor="@color/white"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buttonupload" />
+
+            <Button
+                android:id="@+id/importnewdata_btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Import New Data"
+                android:textColor="@color/white"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintBottom_toBottomOf="@+id/deletealldata_btn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/deletealldata_btn"
+                app:layout_constraintTop_toTopOf="@+id/deletealldata_btn" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:text="Update Meeting Dates"
+                android:textColor="@color/primary_blue"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/deletealldata_btn" />
+
+            <TextView
+                android:id="@+id/date1_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Select 1st Date"
+                android:textColor="@color/primary_blue"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="@+id/textView43"
+                app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+            <TextView
+                android:id="@+id/date2_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Select 2nd Date"
+                android:textColor="@color/primary_blue"
+                android:textSize="22sp"
+                app:layout_constraintStart_toStartOf="@+id/date1_txt"
+                app:layout_constraintTop_toBottomOf="@+id/date1_txt" />
+
+            <Button
+                android:id="@+id/btn_updateDates"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Update"
+                android:textColor="@color/white"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/date2_txt" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="From  Group No"
+                android:textColor="@color/primary_blue"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/group1_et"
+                app:layout_constraintTop_toBottomOf="@+id/btn_updateDates" />
+
+            <EditText
+                android:id="@+id/group1_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="To Group No"
+                android:textColor="@color/primary_blue"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/group2_et"
+                app:layout_constraintTop_toBottomOf="@+id/group1_et" />
+
+            <EditText
+                android:id="@+id/group2_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+            <TextView
+                android:id="@+id/selectgdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Select Date"
+                android:textColor="@color/primary_blue"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="@+id/group2_et"
+                app:layout_constraintStart_toStartOf="@+id/group2_et"
+                app:layout_constraintTop_toBottomOf="@+id/group2_et" />
+
+            <Button
+                android:id="@+id/updateg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Update"
+                android:textColor="@color/white"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectgdate" />
+
+            <Spinner
+                android:id="@+id/sp1_sp"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:entries="@array/alpabets"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/updateg" />
+
+            <Spinner
+                android:id="@+id/sp2_sp"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:entries="@array/alpabets"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sp1_sp" />
+
+            <TextView
+                android:id="@+id/selectspdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Select Date"
+                android:textColor="@color/primary_blue"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="@+id/sp2_sp"
+                app:layout_constraintStart_toStartOf="@+id/sp2_sp"
+                app:layout_constraintTop_toBottomOf="@+id/sp2_sp" />
+
+            <Button
+                android:id="@+id/updatesp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="90dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Update"
+                android:textColor="@color/white"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/selectspdate" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

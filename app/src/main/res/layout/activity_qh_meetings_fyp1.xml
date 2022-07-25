@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QueueHandler.qh_meetings_fyp1">
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/primary_blue"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/times_new_roman_bold"
+                        android:text="Meeting Schedules FYP-I"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/female_group_meetingsimg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toStartOf="@+id/malegroup_meetingsimg"
+                app:layout_constraintHorizontal_bias="0.595"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+                app:srcCompat="@drawable/femaleperson" />
+
+            <ImageView
+                android:id="@+id/malegroup_meetingsimg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/female_group_meetingsimg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/female_group_meetingsimg"
+                app:layout_constraintTop_toTopOf="@+id/female_group_meetingsimg"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/maleperson" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/qh_meetings_fypi_rv"
+                android:layout_width="409dp"
+                android:layout_height="509dp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/timepickerfyp1" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Female"
+                android:textColor="@color/primary_blue"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/female_group_meetingsimg"
+                app:layout_constraintStart_toStartOf="@+id/female_group_meetingsimg"
+                app:layout_constraintTop_toBottomOf="@+id/female_group_meetingsimg" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Male"
+                android:textColor="@color/primary_blue"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/malegroup_meetingsimg"
+                app:layout_constraintStart_toStartOf="@+id/malegroup_meetingsimg"
+                app:layout_constraintTop_toBottomOf="@+id/malegroup_meetingsimg" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Sort By Supervisor"
+                android:textColor="@color/primary_blue"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <Spinner
+                android:id="@+id/qh_spsupervisors_sp"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintEnd_toEndOf="@+id/textView33"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView33"
+                app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+            <Button
+                android:id="@+id/searchforsupervisorbtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Search"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintBottom_toBottomOf="@+id/qh_spsupervisors_sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/qh_spsupervisors_sp"
+                app:layout_constraintTop_toTopOf="@+id/textView33"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/timepickerfyp1"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman"
+                android:gravity="center_vertical"
+                android:text="Select Time"
+                android:textSize="18sp"
+                android:textColor="@color/primary_blue"
+                app:layout_constraintEnd_toEndOf="@+id/qh_spsupervisors_sp"
+                app:layout_constraintStart_toStartOf="@+id/qh_spsupervisors_sp"
+                app:layout_constraintTop_toBottomOf="@+id/qh_spsupervisors_sp" />
+
+            <Button
+                android:id="@+id/dtimefyp1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/main_btn"
+                android:fontFamily="@font/times_new_roman"
+                android:text="Delay"
+                app:backgroundTint="?attr/colorControlNormal"
+                app:backgroundTintMode="add"
+                app:layout_constraintBottom_toBottomOf="@+id/timepickerfyp1"
+                app:layout_constraintStart_toEndOf="@+id/timepickerfyp1"
+                app:layout_constraintTop_toTopOf="@+id/timepickerfyp1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

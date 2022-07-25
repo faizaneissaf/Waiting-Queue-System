@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.Student_MeetingInfoPage">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/primary_blue"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Meeting Information"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/mi_stdaridno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="TextView"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/std_miaridno"
+                app:layout_constraintStart_toStartOf="@+id/std_miaridno"
+                app:layout_constraintTop_toBottomOf="@+id/std_miaridno" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Name"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/mi_stdaridno"
+                app:layout_constraintStart_toStartOf="@+id/mi_stdaridno"
+                app:layout_constraintTop_toBottomOf="@+id/mi_stdaridno" />
+
+            <TextView
+                android:id="@+id/mi_stdname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="TextView"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView34"
+                app:layout_constraintStart_toStartOf="@+id/textView34"
+                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Section"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/mi_stdname"
+                app:layout_constraintStart_toStartOf="@+id/mi_stdname"
+                app:layout_constraintTop_toBottomOf="@+id/mi_stdname" />
+
+            <TextView
+                android:id="@+id/mi_stdsection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="TextView"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView36"
+                app:layout_constraintStart_toStartOf="@+id/textView36"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Supervisor"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/mi_stdsection"
+                app:layout_constraintStart_toStartOf="@+id/mi_stdsection"
+                app:layout_constraintTop_toBottomOf="@+id/mi_stdsection" />
+
+            <TextView
+                android:id="@+id/mi_stdsupervisor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="TextView"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView38"
+                app:layout_constraintStart_toStartOf="@+id/textView38"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Project Title"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/mi_stdsupervisor"
+                app:layout_constraintStart_toStartOf="@+id/mi_stdsupervisor"
+                app:layout_constraintTop_toBottomOf="@+id/mi_stdsupervisor" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Technology"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/mi_stdprojtitle"
+                app:layout_constraintStart_toStartOf="@+id/mi_stdprojtitle"
+                app:layout_constraintTop_toBottomOf="@+id/mi_stdprojtitle" />
+
+            <TextView
+                android:id="@+id/mi_stdprojtitle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="TextView"
+                android:gravity="center"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView40"
+                app:layout_constraintStart_toStartOf="@+id/textView40"
+                app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+            <TextView
+                android:id="@+id/mi_stdtechnology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="TextView"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView41"
+                app:layout_constraintStart_toStartOf="@+id/textView41"
+                app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+            <TextView
+                android:id="@+id/mi_stdmeetingtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="TextView"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView46"
+                app:layout_constraintStart_toStartOf="@+id/textView46"
+                app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Meeting Time"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/mi_stdtechnology"
+                app:layout_constraintStart_toStartOf="@+id/mi_stdtechnology"
+                app:layout_constraintTop_toBottomOf="@+id/mi_stdtechnology" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Meeting Date"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/mi_stdmeetingtime"
+                app:layout_constraintStart_toStartOf="@+id/mi_stdmeetingtime"
+                app:layout_constraintTop_toBottomOf="@+id/mi_stdmeetingtime" />
+
+            <TextView
+                android:id="@+id/std_miaridno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/times_new_roman_bold"
+                android:text="Arid-No"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/mi_stdmeetingdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/times_new_roman"
+                android:text="TextView"
+                android:textColor="@color/primary_blue"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/textView45"
+                app:layout_constraintStart_toStartOf="@+id/textView45"
+                app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

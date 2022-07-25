@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/pq_prjgroupno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pq_stdregno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/pq_prjgroupno"
+        app:layout_constraintStart_toStartOf="@+id/pq_prjgroupno"
+        app:layout_constraintTop_toBottomOf="@+id/pq_prjgroupno" />
+
+    <TextView
+        android:id="@+id/pq_stdname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/pq_stdregno"
+        app:layout_constraintStart_toStartOf="@+id/pq_stdregno"
+        app:layout_constraintTop_toBottomOf="@+id/pq_stdregno" />
+
+    <TextView
+        android:id="@+id/pq_stdcls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/pq_stdname"
+        app:layout_constraintStart_toStartOf="@+id/pq_stdname"
+        app:layout_constraintTop_toBottomOf="@+id/pq_stdname" />
+
+    <TextView
+        android:id="@+id/pq_stdsupervisor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/pq_stdcls"
+        app:layout_constraintStart_toStartOf="@+id/pq_stdcls"
+        app:layout_constraintTop_toBottomOf="@+id/pq_stdcls" />
+
+    <TextView
+        android:id="@+id/pq_projecttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/pq_stdsupervisor"
+        app:layout_constraintStart_toStartOf="@+id/pq_stdsupervisor"
+        app:layout_constraintTop_toBottomOf="@+id/pq_stdsupervisor" />
+
+    <TextView
+        android:id="@+id/pq_projectTech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/pq_projecttitle"
+        app:layout_constraintStart_toStartOf="@+id/pq_projecttitle"
+        app:layout_constraintTop_toBottomOf="@+id/pq_projecttitle" />
+
+    <TextView
+        android:id="@+id/pq_stdmarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/pq_projectTech"
+        app:layout_constraintStart_toStartOf="@+id/pq_projectTech"
+        app:layout_constraintTop_toBottomOf="@+id/pq_projectTech" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/primary_blue"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pq_stdmarks"></LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

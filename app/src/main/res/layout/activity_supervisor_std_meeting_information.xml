@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Supervisor.Supervisor_stdMeetingInformation">
+
+    <TextView
+        android:id="@+id/ssmi_stdname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:fontFamily="@font/times_new_roman"
+        android:textSize="18sp"
+        android:textColor="@color/primary_blue"
+        app:layout_constraintEnd_toEndOf="@+id/ssmi_regno"
+        app:layout_constraintStart_toStartOf="@+id/ssmi_regno"
+        app:layout_constraintTop_toBottomOf="@+id/ssmi_regno" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="Select Free Time"
+        android:textColor="@color/primary_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_sentFreetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="Select Time"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView37"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <Button
+        android:id="@+id/btnsenttimetopq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/main_btn"
+        android:fontFamily="@font/times_new_roman"
+        android:text="Sent"
+        android:textColor="@color/white"
+        app:backgroundTint="?attr/colorControlNormal"
+        app:backgroundTintMode="add"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_sentFreetime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt_sentFreetime"
+        app:layout_constraintTop_toTopOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/ssmi_regno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/times_new_roman"
+        android:text="TextView"
+        android:textColor="@color/primary_blue"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_sentFreetime" />
+
+    <TextView
+        android:id="@+id/ssmi_stdcls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:fontFamily="@font/times_new_roman"
+        android:textSize="18sp"
+        android:textColor="@color/primary_blue"
+        app:layout_constraintEnd_toEndOf="@+id/ssmi_stdname"
+        app:layout_constraintStart_toStartOf="@+id/ssmi_stdname"
+        app:layout_constraintTop_toBottomOf="@+id/ssmi_stdname" />
+
+    <TextView
+        android:id="@+id/ssmi_stdsupervisor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:fontFamily="@font/times_new_roman"
+        android:textSize="18sp"
+        android:textColor="@color/primary_blue"
+        app:layout_constraintEnd_toEndOf="@+id/ssmi_stdcls"
+        app:layout_constraintStart_toStartOf="@+id/ssmi_stdcls"
+        app:layout_constraintTop_toBottomOf="@+id/ssmi_stdcls" />
+
+    <TextView
+        android:id="@+id/ssmi_stdprojtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:fontFamily="@font/times_new_roman"
+        android:textSize="18sp"
+        android:textColor="@color/primary_blue"
+        app:layout_constraintEnd_toEndOf="@+id/ssmi_stdsupervisor"
+        app:layout_constraintStart_toStartOf="@+id/ssmi_stdsupervisor"
+        app:layout_constraintTop_toBottomOf="@+id/ssmi_stdsupervisor" />
+
+    <TextView
+        android:id="@+id/ssmi_stdprojecttech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:fontFamily="@font/times_new_roman"
+        android:textSize="18sp"
+        android:textColor="@color/primary_blue"
+        app:layout_constraintEnd_toEndOf="@+id/ssmi_stdprojtitle"
+        app:layout_constraintStart_toStartOf="@+id/ssmi_stdprojtitle"
+        app:layout_constraintTop_toBottomOf="@+id/ssmi_stdprojtitle" />
+
+    <TextView
+        android:id="@+id/ssmi_meetingtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:fontFamily="@font/times_new_roman"
+        android:textSize="18sp"
+        android:textColor="@color/primary_blue"
+        app:layout_constraintEnd_toEndOf="@+id/ssmi_stdprojecttech"
+        app:layout_constraintStart_toStartOf="@+id/ssmi_stdprojecttech"
+        app:layout_constraintTop_toBottomOf="@+id/ssmi_stdprojecttech" />
+
+    <TextView
+        android:id="@+id/ssmi_meetingdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:fontFamily="@font/times_new_roman"
+        android:textSize="18sp"
+        android:textColor="@color/primary_blue"
+        app:layout_constraintEnd_toEndOf="@+id/ssmi_meetingtime"
+        app:layout_constraintStart_toStartOf="@+id/ssmi_meetingtime"
+        app:layout_constraintTop_toBottomOf="@+id/ssmi_meetingtime" />
+</androidx.constraintlayout.widget.ConstraintLayout>
